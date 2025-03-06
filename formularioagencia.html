@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Formulario Vuelos</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Vuelos</h2>
+        <form action="formulariophp.php" method="post">
+            <div class="form-group">
+                <label for="origen1" class="form-label">Origen:</label>
+                <input type="text" id="origen1" name="origen1" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="destino1" class="form-label">Destino:</label>
+                <input type="text" id="destino1" name="destino1" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha1" class="form-label">Fecha:</label>
+                <input type="date" id="fecha1" name="fecha1" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="plazas_disponibles1" class="form-label">Plazas Disponibles:</label>
+                <input type="number" id="plazas_disponibles1" name="plazas_disponibles1" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="precio1" class="form-label">Precio:</label>
+                <input type="text" id="precio1" name="precio1" class="form-input" required>
+            </div>
+
+            <button type="submit" id="submit1" class="form-button">Enviar</button>
+        </form>
+    </div>   
+    <script src="indextres.js"></script>
+</body>
+
+</html>
